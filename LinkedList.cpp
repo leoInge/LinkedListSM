@@ -53,7 +53,21 @@ void LinkedList<T>::addNodeAfterTo(Node<T> *node, T info) {
     aux->next = nodeNew;
 }
 
-
+template<class T>
+void LinkedList<T>::addNodeBeforeTo(Node<T> *node, T info) {
+    Node<T> *nodeNew= new Node<T>(info);//Crea un nuevo nodo
+    if (node==head){//Pregunta si el nodo entrante es el primer nodo de la lista
+        nodeNew->next=head;
+        head  = nodeNew;//nodeNew se establece como nuevo nodo inicial, y next apunta al que era el antiguo nodo inicial
+    }else{
+        Node<T> *aux = head;
+        while(aux->next != node){//busca el nodo anterior al nodo entrante
+            aux = aux->next;
+        }
+        nodeNew->next = aux->next;
+        aux->next = nodeNew;
+    }
+}
 
 
 template<class T>

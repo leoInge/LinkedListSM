@@ -15,6 +15,7 @@ public:
     LinkedList();
     void addNodeAfterTo(Node<T>* node, T info);
     LinkedList<T> suma(LinkedList<T>);
+    void addNodeBeforeTo(Node<T>* node, T info);
     T deleteNode(Node<T>* node);
     Node<T>* findNode(const std::string &id);
     bool isEmpty();
