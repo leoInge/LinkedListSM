@@ -1,0 +1,3 @@
+C:/Users/yilbe/OneDrive/Escritorio/UPTC/Ingenieria en sistemas/Sexto semestre/Programacion 3/Codigos Profesor/linkDouble/cmake-build-debug/CMakeFiles/linkDouble.dir
+C:/Users/yilbe/OneDrive/Escritorio/UPTC/Ingenieria en sistemas/Sexto semestre/Programacion 3/Codigos Profesor/linkDouble/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/yilbe/OneDrive/Escritorio/UPTC/Ingenieria en sistemas/Sexto semestre/Programacion 3/Codigos Profesor/linkDouble/cmake-build-debug/CMakeFiles/rebuild_cache.dir
