@@ -77,11 +77,11 @@ int main() {
                 //Node<Videogame> *node = listavideojuegos->findNode(idvideogame);
 
                 // if (node != NULL) {
-                cout << "Existe" << endl;
+               // cout << "Existe" << endl;
                 // } else {
                 //   cout << "No existe" << endl;
                 // }
-                break;
+                //break;
 
             case 4:
 
