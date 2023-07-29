@@ -13,6 +13,7 @@ template <class T>
 class LinkedList {
 public:
     LinkedList();
+    void addNodeAfterTo(Node<T>* node, T info);
     LinkedList<T> suma(LinkedList<T>);
     T deleteNode(Node<T>* node);
     Node<T>* findNode(const std::string &id);

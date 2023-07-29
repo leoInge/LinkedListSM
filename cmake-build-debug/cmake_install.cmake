@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/yilbe/OneDrive/Escritorio/UPTC/Ingenieria en sistemas/Sexto semestre/Programacion 3/Codigos Profesor/linkDouble
+# Install script for directory: C:/Users/yilbe/CLionProjects/LinkedListSM
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/yilbe/OneDrive/Escritorio/UPTC/Ingenieria en sistemas/Sexto semestre/Programacion 3/Codigos Profesor/linkDouble/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/yilbe/CLionProjects/LinkedListSM/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

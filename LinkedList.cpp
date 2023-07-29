@@ -42,6 +42,16 @@ Node<T> *LinkedList<T>::findNode(const std::string &idvideogame) {
     return NULL;
 }
 
+template<class T>
+void LinkedList<T>::addNodeAfterTo(Node<T> *node, T info) {
+    Node<T> *nodeNew= new Node<T>(info);
+    Node<T> *aux = head;
+    while (aux != node){
+        aux = aux->next;
+    }
+    nodeNew->next = aux->next;
+    aux->next = nodeNew;
+}
 
 
 
