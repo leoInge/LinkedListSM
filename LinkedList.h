@@ -15,9 +15,13 @@ public:
     LinkedList();
     void addNodeAfterTo(Node<T>* node, T info);
     LinkedList<T> suma(LinkedList<T>);
+    void  getSize();
+    int countObjects();
+    void  getObject(int pos);
     void addNodeBeforeTo(Node<T>* node, T info);
     T deleteNode(Node<T>* node);
     Node<T>* findNode(const std::string &id);
+    T* findinfo(const std::string &id);
     bool isEmpty();
 
     void addFirst( T info );
@@ -28,14 +32,17 @@ public:
 
     void addSorted( T info );
 
+    void addNodeAfterTo(const string &targetId, T info);
+
 private:
     Node<T>* head;
     Node<T>* last;
 public:
 
 
-private:
+    void addNodeBeforeTo(const string &targetId, T info);
 
+    T getFirstByPosition(int position);
 };
 
 

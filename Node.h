@@ -1,6 +1,3 @@
-//
-// Created by Jairo Riaño on 17/07/23.
-//
 
 #ifndef LINKDOUBLE_NODE_H
 #define LINKDOUBLE_NODE_H
